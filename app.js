@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // Middleware
-appapp.set('view engine', 'ejs');
+app.set('view engine', 'ejs');
 app.set('views', __dirname);
 
 
