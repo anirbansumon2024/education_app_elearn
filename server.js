@@ -5,7 +5,7 @@ const { createTables } = require('./database'); // Database.js থেকে crea
 const router = require('./router'); // router.js থেকে রাউটগুলি ইম্পোর্ট
 
 const app = express();
-const port = 3000;
+const port = 3001;
 
 // Body-parser middleware
 app.use(bodyParser.json());
