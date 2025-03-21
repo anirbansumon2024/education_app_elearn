@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const bodyParser = require('body-parser');
-const { createTables } = require('./Database'); // Database.js থেকে createTables ইম্পোর্ট
+const { createTables } = require('./database'); // Database.js থেকে createTables ইম্পোর্ট
 const router = require('./router'); // router.js থেকে রাউটগুলি ইম্পোর্ট
 
 const app = express();
