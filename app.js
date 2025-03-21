@@ -6,7 +6,11 @@ const app = express();
 const PORT = 3000;
 
 // Middleware
-app.set('view engine', 'ejs');
+appapp.set('view engine', 'ejs');
+app.set('views', __dirname);
+
+
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Home route - Show all subjects
